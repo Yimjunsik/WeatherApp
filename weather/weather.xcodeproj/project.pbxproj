@@ -13,10 +13,11 @@
 		227F051B23F9330000F4480F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F051923F9330000F4480F /* Main.storyboard */; };
 		227F051D23F9330100F4480F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 227F051C23F9330100F4480F /* Assets.xcassets */; };
 		227F052023F9330100F4480F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 227F051E23F9330100F4480F /* LaunchScreen.storyboard */; };
+		227F052923F9738200F4480F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227F052823F9738200F4480F /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		227F051023F9330000F4480F /* weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227F051023F9330000F4480F /* 날씨.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "날씨.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		227F051323F9330000F4480F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		227F051523F9330000F4480F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		227F051723F9330000F4480F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		227F051C23F9330100F4480F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		227F051F23F9330100F4480F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		227F052123F9330100F4480F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227F052823F9738200F4480F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				227F052923F9738200F4480F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,13 +45,14 @@
 			children = (
 				227F051223F9330000F4480F /* weather */,
 				227F051123F9330000F4480F /* Products */,
+				227F052723F9738200F4480F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		227F051123F9330000F4480F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				227F051023F9330000F4480F /* weather.app */,
+				227F051023F9330000F4480F /* 날씨.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +69,14 @@
 				227F052123F9330100F4480F /* Info.plist */,
 			);
 			path = weather;
+			sourceTree = "<group>";
+		};
+		227F052723F9738200F4480F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227F052823F9738200F4480F /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +96,7 @@
 			);
 			name = weather;
 			productName = weather;
-			productReference = 227F051023F9330000F4480F /* weather.app */;
+			productReference = 227F051023F9330000F4480F /* 날씨.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -291,9 +303,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.junsik.weather;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "날씨";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,9 +320,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.junsik.weather;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "날씨";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
