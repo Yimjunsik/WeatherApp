@@ -17,6 +17,7 @@
 		227F052923F9738200F4480F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227F052823F9738200F4480F /* MapKit.framework */; };
 		227F052E23F974CA00F4480F /* WeatherVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F052D23F974CA00F4480F /* WeatherVO.swift */; };
 		227F053123F9766D00F4480F /* WTEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227F053023F9766D00F4480F /* WTEnum.swift */; };
+		22A751612460426200DF0E34 /* WeatherHourlyVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A751602460426200DF0E34 /* WeatherHourlyVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		227F052823F9738200F4480F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		227F052D23F974CA00F4480F /* WeatherVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherVO.swift; sourceTree = "<group>"; };
 		227F053023F9766D00F4480F /* WTEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTEnum.swift; sourceTree = "<group>"; };
+		22A751602460426200DF0E34 /* WeatherHourlyVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherHourlyVO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				227F052D23F974CA00F4480F /* WeatherVO.swift */,
 				22578E7E245FF244009195D5 /* WeatherCurrentVO.swift */,
+				22A751602460426200DF0E34 /* WeatherHourlyVO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				22578E7F245FF244009195D5 /* WeatherCurrentVO.swift in Sources */,
 				227F051823F9330000F4480F /* ViewController.swift in Sources */,
 				227F051423F9330000F4480F /* AppDelegate.swift in Sources */,
+				22A751612460426200DF0E34 /* WeatherHourlyVO.swift in Sources */,
 				227F051623F9330000F4480F /* SceneDelegate.swift in Sources */,
 				227F052E23F974CA00F4480F /* WeatherVO.swift in Sources */,
 			);
