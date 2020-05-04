@@ -22,6 +22,7 @@
 		22A751652460437000DF0E34 /* WTFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A751642460437000DF0E34 /* WTFormat.swift */; };
 		22A75168246046B000DF0E34 /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A75167246046B000DF0E34 /* ApiClient.swift */; };
 		22A7516A2460484700DF0E34 /* WTUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A751692460484700DF0E34 /* WTUrl.swift */; };
+		22A7516C24604C2600DF0E34 /* ApiClient+Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A7516B24604C2600DF0E34 /* ApiClient+Weather.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		22A751642460437000DF0E34 /* WTFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTFormat.swift; sourceTree = "<group>"; };
 		22A75167246046B000DF0E34 /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		22A751692460484700DF0E34 /* WTUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WTUrl.swift; sourceTree = "<group>"; };
+		22A7516B24604C2600DF0E34 /* ApiClient+Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ApiClient+Weather.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				22A75167246046B000DF0E34 /* ApiClient.swift */,
+				22A7516B24604C2600DF0E34 /* ApiClient+Weather.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 			files = (
 				227F053123F9766D00F4480F /* WTEnum.swift in Sources */,
 				22578E7F245FF244009195D5 /* WeatherCurrentVO.swift in Sources */,
+				22A7516C24604C2600DF0E34 /* ApiClient+Weather.swift in Sources */,
 				22A7516A2460484700DF0E34 /* WTUrl.swift in Sources */,
 				22A751652460437000DF0E34 /* WTFormat.swift in Sources */,
 				227F051823F9330000F4480F /* ViewController.swift in Sources */,
